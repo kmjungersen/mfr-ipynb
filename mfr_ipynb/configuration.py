@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """Configuration object for the mfr-ipynb module."""
 
-from IPython.config import Config
-from IPython.nbconvert.exporters import HTMLExporter
-from mako.lookup import TemplateLookup
 import os
 import inspect
+from mako.lookup import TemplateLookup
+
+from IPython.config import Config
+from IPython.nbconvert.exporters import HTMLExporter
+
 
 class ipynb_config(object):
 
